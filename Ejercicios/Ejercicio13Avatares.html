@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 13 - Avatares</title>
+    <style>
+        body{
+/*             background-color: black; */
+            text-align: center;
+            background-image: url(fondo_abstracto.jpg);
+            background-size: cover;
+        }
+
+        h1, h2 {
+            color: black;
+            font-size: 2.5em;
+            text-shadow: 3px 3px grey;
+        }
+        h1{
+            font-size: 3em;
+        }
+        div {
+            border: 4px solid white;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            position:absolute;
+        }
+        #id1{
+            top:50px;
+            left:50px;
+        }
+        #id2{
+            top:50px;
+            right:50px;
+        }
+        #id3{
+            bottom:50px;
+            left:50px;
+        }
+        #id4{
+            bottom:50px;
+            right:50px;
+        }
+        #central{
+            top: calc(50% - 150px);
+            left: calc(50% - 150px);
+            height: 300px;
+            width: 300px;
+        }
+        img{
+            border-radius: 50%;
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imágenes IA</h1>
+    <h2>Avatares</h2>
+    <main>
+        <div id="id1"><img src="avatar1.jpg" alt=""></div>
+        <div id="id2"><img src="avatar2.jpg" alt=""></div>
+        <div id="id3"><img src="avatar3.jpg" alt=""></div>
+        <div id="id4"><img src="avatar4.jpg" alt=""></div>
+        <div id="central"><img src="avatarJulian.jpg" alt="avatar de Julian"></div>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br>
+        <h1>David Castrillo - Curso de Páginas Web en HTML, CSS y JavaScript</h1>
+    <h2><a href="enlaces.html" target="_blank">Enlaces páginas/proyectos de mis compañeros</a></h2>
+    </main>
+</body>
+</html>
