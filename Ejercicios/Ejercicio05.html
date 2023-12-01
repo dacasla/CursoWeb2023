@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prensa del día</title>
+    <style>
+        main{
+            column-count: 2;
+            text-align: center;
+        }
+        header h1 {
+            background-color: orange;
+            /*color: white;*/
+            padding:2em;
+            width: 50%;
+            margin:2em auto;
+            text-align: center;
+            font-size: 4em;
+            border-radius: 25px;
+            box-shadow: 0 -20px 40px blue;
+        }
+        article{
+            border:5px solid gray;
+            margin-bottom: 2em;
+            border-radius: 25px;
+        }
+        img{
+            height: 250px;
+        }
+
+        article{
+            opacity: 0.7;
+            box-shadow: -10px -10px 25px orange;
+            background-color: white;
+        }
+        article:hover{
+            opacity: 1;
+            border: 5px solid black;
+            box-shadow: -10px -10px 25px red;
+
+        }
+        .a2 {
+            box-shadow: 10px 10px 25px orange;
+        }
+        .a2:hover{
+            box-shadow: 10px 10px 25px red;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PRENSA DEL DÍA <img src="news.jpg" alt=""></h1>
+    </header>
+    <main>
+        <article class="a1"><a href="https://www.elmundo.es/" target="_blank"><img src="elmundo.png" alt=""></a></article>
+        <article class="a2"><a href="https://www.expansion.com/" target="_blank"><img src="expansion.png" alt=""></a></article>
+        <article ><a href="https://laprensadecolorado.com/" target="_blank"><img src="laprensa.png" alt=""></a></article>
+        <article class="a2"><a href="https://www.lemonde.fr/" target="_blank"><img src="lemonde.png" alt=""></a></article>
+    </main>
+
+
+
+</body>
+</html>

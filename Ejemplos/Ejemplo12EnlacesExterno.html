@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang=""es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces Externos</title>
+    <style>
+        img{
+            border-radius: 30%;
+            width: 300px;
+        }
+        #logoAmazon_img{
+            border: 5px solid yellow;
+        }
+        .links{
+            background-color: blue;
+        }
+        ol .links{ /* Esto es para seleccionar todos los elementos que sean descendientes de una ol 
+            Todo que no este dentro de una ol no te lo va a aplicar */
+            background-color: orange;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="links">Enlaces Externos</h1>
+    <h2>Buscadores</h2>
+    <ol>
+        <li class="links"><a href="https://www.google.es/" target="_blank">Google</a></li> <!-- tarjet="_blank" es para que se abra en una nueva pestaña -->
+        <li><a href="https://www.bing.com/?setlang=es" target="_blank">Bing</a></li>
+        <li><a href="https://duckduckgo.com/" target="_blank">DuckDuckGo</a></li>
+        <li class="links"><a href="https://www.amazon.es/" target="_blank">
+            <img src="amazon.PNG" alt="Logo de Amazon" id="logoAmazon_img" style="width: 90px;"></a></li> 
+            <!-- Incluyendo style aqui, se llama estilo en línea 
+            Aqui predomina este width 90px, por que el codigo se realiza secuencialmente y en este caso, lo último es lo que predomina (90px)-->
+    </ol>
+
+    
+</body>
+</html>

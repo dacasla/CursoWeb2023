@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicico 08 - Tabla</title>
+    <style>
+        table, th, td{
+            border: 1.5px outset black;
+            width: 20%;
+            padding: 5px;
+        }
+        th{
+            font-style: bold;
+            border: 1.5px inset black;
+        }
+        td{
+            border: 1.5px inset black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejercicio8 - Tabla con celdas combinadas</h1>
+    <table>
+        <tr></tr>
+            <th colspan="2"></th> <!-- colspan="2" Para combinar 2 columnas -->
+            <th>Bob</th>
+            <th>Alice</th>
+        </tr>
+        <tr></tr>
+            <th rowspan="2">Favorito</th> <!-- rowspan="2" Para combinar 2 filas verticalmente -->
+            <th>Color</th>
+            <td>Azul</td>
+            <td>Amarillo</td>
+        </tr>
+        <tr>
+            <th>Sabor</th>           
+            <td>Manzana</td>
+            <td>Chocolate</td>
+        </tr>
+    </table>
+</body>
+</html>

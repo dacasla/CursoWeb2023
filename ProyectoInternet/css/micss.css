@@ -1,0 +1,134 @@
+/* h1{
+    background-color: orange;
+    color:white;
+    text-align: center;
+    padding: 1.5em;
+    width: 85%;
+    margin: 120px, auto;
+    font-size: 3.5em;
+} */
+
+body{
+    text-align: center;
+}
+h1{
+    padding: 2em;
+}
+h2{
+    text-align: center;
+}
+/* * {
+    border: 1px solid gray;
+} */
+header{
+    padding: 5px;
+    background-color: rgb(245, 249, 252);
+    color: rgb(27, 20, 100);
+    font-size: 20px;
+    /* color(srgb red green blue) */
+    height: 110px;
+    font-weight: 600;
+    font-family: montserrat,Sans-serif;
+}
+header div{
+    width: 15%;
+    display: inline-block;
+    vertical-align: left;
+}
+header div logo{
+    width: 35px;
+    height: 35px;
+}
+header section{
+    width: 53%;
+    display: inline-block;
+    vertical-align: middle;
+}
+header nav{
+    width: 20%;
+    display: inline-block;
+    text-align: middle;
+}
+main{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: montserrat,Sans-serif;
+}
+main h2{
+    text-align: left;
+}
+main div{
+    width: 90%;
+    display: inline-block;
+    vertical-align: top;
+}
+main maindiv2{
+    width: 450px;
+    height: 450px;
+    background-color: grey;
+}
+main p{
+    /* text-align: justify; */
+}
+main section{
+    width: 18%;
+    height: 400px;
+    display: inline-block;
+    font-family: montserrat,Sans-serif;
+    background-color: rgb(27, 20, 100);
+    color: rgb(147, 214, 222);
+    vertical-align: top;
+    /* padding: 2px; */
+    padding-top: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+/* main aside{
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+} */
+/* aside iframe{
+    width: 90%;
+    height: 250px;
+} */
+footer{
+    background-color: rgb(27, 20, 100);
+    color: rgb(147, 214, 222);
+    font-size: 15px;
+    height: 100px;
+    font-weight: 300;
+    font-family: montserrat,Sans-serif;
+    vertical-align: top;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer section{
+    width: 33%;
+    display: inline-block;
+    /* background-color: orange; */
+    vertical-align: top;
+    padding: 0.1px;
+}
+footer hr{
+    width: 108%;
+    margin-left: -4%;
+}
+footer li{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: montserrat,Sans-serif;
+}
+footer p{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: montserrat,Sans-serif;
+}
+footer h2{
+    text-align: left;
+    margin: 0;
+}

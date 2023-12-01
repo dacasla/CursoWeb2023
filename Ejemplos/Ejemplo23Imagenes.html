@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 23 - Imagenes</title>
+    <style>
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        body{
+            background-image: url(imagen2.jpg), url(Tabla1.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Fijar la imagen de fondo */
+            background-attachment: scroll; /* Es por defecto */ 
+        }
+        main{
+            width: 1000px;
+            height: 600px;
+            border: 40px solid orange;
+            margin: 40px auto;
+            padding: 2cm;
+            background-image: url(platano1.jpg); /* Si foto es más pequeña, se repite en eje de X e Y */
+            background-repeat: repeat-x; /* Repite en horizontal la foto de fondo */
+            background-repeat: repeat-y; /* Repite en vertical la foto de fonde */
+            background-repeat: repeat; /* Por defecto, repite en vertical y horizontal */
+            background-repeat: no-repeat; /* Solo muestra uno, no repite ni vertical ni horizontal */
+            /* background-position: center 30px; /* Posicionar la imagen de fonde */
+            background-origin: content-box; /* El origen del background es el contenido */
+            background-origin: border-box; /* El origen del background es el borde */
+            background-origin: padding-box; /* Esta opción es la de por defecto */
+            background-size: 300px 300px;
+            background-size: 100% 100%;
+            background-size: contain;
+            background-size: cover;
+            background-origin: border-box;
+        }
+        section{
+            width: 70%;
+            height: 30px auto;
+            border: 10px dotted grey;
+            padding: 50px;
+            background-color: orange;
+            /* Background-clip se utiliza para el color de un fondo */
+            background-clip: padding-box; 
+            background-clip: content-box;
+        }
+        article{
+            border: 40px solid rgba(0, 255, 0, 0.5);
+            background-color: black;
+            color: white;
+            width: 60%;
+            margin: 20px auto;
+            background-clip: padding-box;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <main>
+        <br><br><br><br><br><br><br><br><br><br>
+        <img src="imagen1.jpg" alt="Imagen" width="400" height="400">     
+    </main>
+    <section>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus molestias nihil ducimus commodi sit quis similique reiciendis incidunt nesciunt non suscipit, a amet perspiciatis, sunt, quas minima sapiente corrupti quidem.</div>
+        <br><br><br><br><br>
+    </section>
+    <article>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ab itaque! Dolorum molestiae sunt provident reprehenderit, dolor modi nisi? Itaque non laborum voluptatem adipisci fugit necessitatibus eius aut sapiente cum?
+    </article>
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12 - Calculadora</title>
+    <style>
+        @font-face {
+            font-family: Calculator;
+            src: url(../Fuentes/Calculator.ttf);
+        }
+        .rojo{
+            height: 500px;
+            width: 500px;
+            background-color: rgb(255, 99, 71);
+            border-radius:50%;
+            position: absolute;
+            top: 30px;
+            left: calc(50% - 250px);
+        }
+        .naranja{
+            height: 400px;
+            width: 250px;
+            background-color: rgb(255, 165, 0);
+            border-radius: 10px;
+            position: absolute;
+            left: calc(50% - 120px);
+            top: 75px;
+        }
+        .verde{
+            height: 300px;
+            width: 220px;
+            background-color: green;
+            border-radius: 10px;
+            position: absolute;
+            left: calc(50% - 120px);
+            top:175px;
+        }
+        .tecla{
+            height: 55px;
+            width: 55px;
+            background-color: gray;
+            color: black;
+            border-radius: 10px;
+            position: relative;
+            left: calc(50% - 120px);
+            top:90px;
+            float: left;
+            text-align: center;
+            padding: 5%;
+            box-sizing: border-box; /* Esto suma el padding junto con todo el contenido */
+            border: 1.5px solid black;
+            margin: 3px;
+        }
+        .tecla:hover{
+            color:black;
+            opacity:1;
+            font-weight: bold;
+            background-color: gray;
+        }
+        .gris{
+            height: 80px;
+            width: 250px;
+            background-color: rgb(128, 128, 128);
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            position: absolute;
+            left: calc(50% - 120px);
+            top: 75px;
+        }
+        .amarillo{
+            height: 60px;
+            width: 230px;
+            background-color: rgb(245, 222, 179);
+            border-radius: 10px;
+            position: relative;
+            left: calc(50% - 107.5px);
+            top: 75px;
+            text-align: right;
+            font-size: 45px;
+            font-family: Calculator;
+        }
+        div:
+    </style>
+</head>
+<body>
+    <header>
+        <div class="rojo"></div>
+        <div class="naranja">
+            <div class="tecla">AC</div>
+            <div class="tecla"> CE</div>
+            <div class="tecla">%</div>
+            <div class="tecla">/</div>
+            <div class="tecla">7</div>
+            <div class="tecla">8</div>
+            <div class="tecla">9</div>
+            <div class="tecla">x</div>
+            <div class="tecla">4</div>
+            <div class="tecla">5</div>
+            <div class="tecla">6</div>
+            <div class="tecla">+</div>
+            <div class="tecla">1</div>
+            <div class="tecla">2</div>
+            <div class="tecla">3</div>
+            <div class="tecla">-</div>
+            <div class="tecla">0</div>
+            <div class="tecla">.</div>
+            <div class="tecla">%</div>
+            <div class="tecla">=</div>
+        </div>
+        <div class="gris"></div>
+        <div class="amarillo">
+            123
+        </div>
+    </header>
+</body>
+</html>

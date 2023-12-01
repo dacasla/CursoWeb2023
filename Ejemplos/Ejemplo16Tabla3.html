@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        thead{
+            background-color: orange;
+            color: white;
+        }
+        tbody tr:nth-child(even){
+            background-color: rgba(0,0, 0 / 0.3); /* Lo mismo que rgba (0, 0, 0, 0.3) 0.3 es la trasparencia que le aplicamos */
+        }
+        tfoot{
+            background-color: black;
+            color: white;
+        }
+        th, td{
+            border: 5px groove blue;
+            padding: 8px;
+        }
+        table{
+            margin: auto;
+            border-spacing: 7px; /* Para separar el espacio entre las celdas de la tabla */
+            width: 50%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Edad</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Luis</td>
+                <td>Gómez Gómez</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>Plaza de Toros</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td>Felipa</td>
+                <td>Conejo Abil</td>
+                <td>33</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Nombre</td>
+                <td>Apellidos</td>
+                <td>Edad</td>
+            </tr>
+        </tfoot>   
+        <caption>Alumnos del curso de Italiano</caption> <!-- Nos sirve para la leyenda de la tabla. 
+        Siempre se visualiza en la parte superior independientemente donde lo hayamos introducido en el código de la página web. -->
+    </table>
+</body>
+</html>

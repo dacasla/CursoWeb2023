@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas 2</title>
+    <style>
+        #tabla2, #tabla1{
+            border-collapse: collapse;
+            text-align: center;
+            margin: 50px auto;
+            width: 60%;
+        }
+        #tabla2 th, #tabla2 td, #tabla1 th, #tabla1 td{
+            border: 2px solid black;   
+            width: 20%;
+        }
+        #tabla2 .celda0, #tabla1 .celda0{ /* Se incluyen tabla y celda para que el selector (posicionando el cursos sobre el identificador en el style, 
+                        tengan la misma selectividad o prioridad y así, quite el border */
+            border:none;
+        }
+        #tabla1 th, #tabla1 td{
+            border: 2px solid black;   
+            width: 20%;
+        }
+       
+    </style>
+  
+</head>
+<body>
+    <h1>Tablas 2</h1>
+    
+    <table id="tabla2"> 
+        <tr>
+            <td class="celda0"></td>
+            <td colspan="4">Características</td>
+        </tr>
+        <tr id="fila0">
+        <th class="celda0"></th>
+        <th>Peso (kg)</th>
+        <th>Altura (cm)</th>
+        <th>Edad(años)</th>
+        <th>Pais</th>
+       </tr>
+       <tr>
+      <th class="fila1">Persona 1</th>
+      <td>88</td>
+      <td>184</td>
+      <td>20</td>
+      <td>Cuba</td>
+      <tr>
+        <th class="fila1">Persona 2</th>
+        <td>70</td>
+        <td>179</td>
+        <td>50</td>
+        <td>Francia</td>
+      </tr>
+       <tr>
+        <th class="fila1">Persona 3</th>
+        <td>65</td>
+        <td>54</td>
+        <td>54</td>
+        <td>Italia</td>
+       </tr>
+       <tr>
+        <th class="fila1">Persona 4</th>
+        <td>59</td>
+        <td>54</td>
+        <td>54</td>
+        <td>España</td>
+       </tr>
+    </table>
+
+  
+
+    <table id="tabla1"> 
+        <tr>
+            <td class="celda0"></td>
+            <td colspan="4">Características</td>
+        </tr>
+        <tr id="fila0">
+        <th class="celda0"></th>
+        <th>Peso (kg)</th>
+        <th>Altura (cm)</th>
+        <th>Edad(años)</th>
+        <th>Pais</th>
+       </tr>
+       <tr>
+      <th class="fila1">Persona 1</th>
+      <td>88</td>
+      <td>184</td>
+      <td>20</td>
+      <td>Cuba</td>
+      <tr>
+        <th class="fila1">Persona 2</th>
+        <td>70</td>
+        <td colspan="2" rowspan="2">175</td>
+        <td>Francia</td>
+      </tr>
+       <tr>
+        <th class="fila1">Persona 3</th>
+        <td>65</td>
+        <td>Italia</td>
+       </tr>
+       <tr>
+        <th class="fila1">Persona 4</th>
+        <td>59</td>
+        <td>173</td>
+        <td>66</td>
+        <td>España</td>
+       </tr>
+    </table>
+    
+</body>
+</html>
